@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+this package for handling hover on flutter web.
 
 ## Features
 
@@ -29,7 +28,8 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
-const like = 'sample';
+HoverHandleBuilder(
+      builder: (context, isHover)=>isHover?Text('is hover'):Text('.......'),);
 ```
 
 ## Additional information

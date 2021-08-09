@@ -1,7 +1,8 @@
 name: hover_handler
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+homepage: none
+repository: https://github.com/IzumiShaka-desu/hover_handler
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
